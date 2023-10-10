@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 300px;
+}
+body{
+    background-color: rgb(9, 9, 126);
+    font-family:'Roboto Condensed', sans-serif;;
+}
+.cuadrado{
+    width: 1400px;
+    height: 300px;
+    background-color: brown;
+    
+
+}
+
+.circulo{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(226, 110, 43);
+    border-radius: 250px;
+
+    position: relative;
+    bottom: 300px;
+    right: 15px;
+    box-shadow: inset 0px 10px 9px;
+
+}
+.circulo2{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    position: absolute;
+    bottom: 300px;
+    border-radius: 250px;
+    bottom: 330px;
+    right: 10px;
+    box-shadow: inset 0px 10px 9px;
+
+    
+}
+.triangulo{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(240, 14, 127);
+    border-radius: 300px;
+   
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    bottom: 300px;
+    right: 550px;
+    bottom: 330px;
+
+
+
+
+
+
+    
+}   
+
+
